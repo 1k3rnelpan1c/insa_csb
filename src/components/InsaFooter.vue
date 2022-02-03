@@ -145,7 +145,7 @@
       </v-row>
       <v-row class="copyright" align="center" justify="center">
         <div class="footer-bottom">
-          &copy; 2020 Copyright INSA
+          &copy; 2022 Copyright INSA
         </div>
       </v-row>
     </v-col>
