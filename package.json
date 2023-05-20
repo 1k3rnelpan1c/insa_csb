@@ -13,7 +13,7 @@
     "@/*": "dist/src"
   },
   "dependencies": {
-    "@mdi/font": "6.5.95",
+    "@mdi/font": "6.9.96",
     "@types/node": "16.11.22",
     "axios": "0.25.0",
     "core-js": "3.30.1",
