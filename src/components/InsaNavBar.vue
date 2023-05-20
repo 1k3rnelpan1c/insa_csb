@@ -1,5 +1,5 @@
 <template>
-  <!-- CONTAINER NAVIGATION BAR -->
+  <!-- CONTAINER NAVIGATION BAR TEST -->
   <v-container id="nav-bar" class="container-nav-bar">
     <!-- ROW WITH LOGO | SIDENAV MENU | INTERNATIONALIZATION CHANGE -->
     <v-row no-gutters>
