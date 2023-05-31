@@ -1,5 +1,20 @@
 <template>
   <v-container class="main-page">
+    <v-alert title="ANUNCIO IMPORTANTE" text="..." type="error">
+      <div class="announcement-container">
+        <div class="festival-announcement">
+          <v-img src="https://d1ro9wdeur3r20.cloudfront.net/photos/festival_verano_2023.jpg" />
+        </div>
+        <div class="video-festival-container">
+          <video controls>
+            <source
+              src="https://d1ro9wdeur3r20.cloudfront.net/photos/festival_verano_2023.mp4"
+              type="video/mp4"
+            />
+          </video>
+        </div>
+      </div>
+    </v-alert>
     <div class="cover-image">
       <img class="img1" src="https://d1ro9wdeur3r20.cloudfront.net/photos/cover_page_kids.jpg" />
     </div>
@@ -111,7 +126,6 @@
     </v-container>
   </v-container>
 </template>
-
 <script lang="ts">
 import Vue from "vue";
 
@@ -129,6 +143,23 @@ export default InsaHome;
   max-width: 100% !important;
   height: 100% !important;
   padding: 0px !important;
+  .announcement-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .video-festival-container video {
+      padding-left: 20px;
+      object-fit: cover;
+    }
+    .festival-announcement {
+      max-width: 100%;
+      max-height: 100%;
+      width: 500px;
+      height: 100%;
+      border-radius: 10px; /* Adjust the value as needed */
+      border: 2px solid #ccc;
+    }
+  }
   .cover-image {
     width: 100%;
     background-color: white;
